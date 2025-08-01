@@ -14,7 +14,7 @@ sudo mv sonarqube-9.4.0.54424 sonarqube
 
 #Add SonarQube user:
 sudo adduser sonar
-sudo chown sonar:sonar sonarqube-9.4.0.54424.zip -R
+sudo chown sonar:sonar sonarqube -R
 
 # change the permissions to the group user and other users:
 sudo chmod 777 sonarqube -R
