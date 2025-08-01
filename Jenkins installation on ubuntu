@@ -24,3 +24,6 @@ sudo systemctl start Jenkins
 sudo systemctl status Jenkins
 
 #Jenkins server port no:8080 
+
+#install maven
+sudo apt install maven
